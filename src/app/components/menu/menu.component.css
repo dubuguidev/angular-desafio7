@@ -53,8 +53,8 @@ position: fixed;
 }
 
 .offcanvas-body .btn-primary {
-  background-color: #007bff; 
-  color: white; 
+  background-color: #2701ff; 
+  color: rgb(255, 255, 255); 
   border: none; 
   padding: 12px 20px; 
   border-radius: 8px; 
@@ -66,19 +66,19 @@ position: fixed;
 }
 
 .offcanvas-body .btn-primary:hover {
-  background-color: #0056b3;
+  background-color: #67a7ec;
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 .offcanvas-body .btn-primary:active {
-  background-color: #004085;
+  background-color: #1177dd;
   transform: translateY(0); 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .offcanvas-body .logout.btn-danger {
-  background-color: #dc3545; 
+  background-color: #e40c21; 
   color: white;
   border: none;
   padding: 12px 20px;

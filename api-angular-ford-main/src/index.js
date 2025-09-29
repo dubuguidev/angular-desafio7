@@ -57,7 +57,7 @@ app.post("/login", (req, res) => {
         }
 
         // Verificar credenciais de admin
-        if (nome === "admin" && senha === "123") {
+        if (nome === "admin" && senha === "123456") {
             return res.status(200).json({
                 id: 1,
                 username: "admin",
